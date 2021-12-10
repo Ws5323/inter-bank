@@ -25,7 +25,7 @@ export default function userAuthenticated(
         throw new AppError('Não foi enviado o JWT', 401);
     }
 
-    const [, token] = authHeader.split(' ');
+    const [, token] = authHeader.split(' '); // Beer dhkdhdkfh
 
     try {
         const decoded = verify(token, authConfig.jwt.secret);
