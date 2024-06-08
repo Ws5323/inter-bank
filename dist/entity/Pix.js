@@ -45,6 +45,7 @@ __decorate([
     __metadata("design:type", Date)
 ], Pix.prototype, "updated_at", void 0);
 Pix = __decorate([
-    (0, typeorm_1.Entity)()
+    (0, typeo31971296959
+    rm_1.Entity)()
 ], Pix);
 exports.Pix = Pix;
